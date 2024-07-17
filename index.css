@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(238, 228, 237);
+    font-family: 'Roboto', sans-serif; 
+}
+
+header{
+    background-color: black;
+    color: rgb(240, 229, 245);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.titulo{
+    margin: 25px 25px;
+    color: blueviolet;
+}
+
+nav{
+    width:960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+}
+
+.menu{
+    margin: 35px;
+    position:relative;
+    color:rgb(232, 232, 213);
+}
+
+.select-lang{
+    cursor: pointer;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.select-lang:before {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 32px;
+        background-image: url(https://flagsapi.com/ES/flat/32.png);
+}
+
+.menu ul{
+    border-radius: 6px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 50, 50);
+    border: 4px solid rgb(32, 32, 32);
+    position:absolute;
+    display:none;
+    
+}
+
+.menu:hover ul {
+    display:block;
+}
+
+.menu ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    width:125px;
+    display: block;
+    padding: 5px 10px;
+
+}
+
+.menu ul li a:hover {
+    background-color: rgb(23, 23, 23)
+
+}
+
+.menu ul li a:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+    
+}
+
+
+.es:before {
+    background-image: url(https://flagsapi.com/ES/flat/32.png);
+}
+
+.en:before {
+    background-image: url(https://flagsapi.com/GB/flat/32.png);
+}
+
+#me{
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 210px;
+    height: auto;
+}
+
+img {
+    border-radius: 8px;
+    border: 5px solid black;
+    box-shadow: 4px 4px 10px black;
+    width: 126px;
+    height: 38px;
+}
+
+img:hover{
+    animation: pulse;
+    animation-duration: 1.3s;
+}
+
+h1{font-size: 3em}
+  
+button{
+    font-size:1.25;
+    font-weight:bold;
+    padding:10px 30px;
+    border-radius:5px;
+    border: 2px solid black;
+    box-shadow:2px 2px 10px rgb(97, 19, 171);
+    color:rgb(255, 255, 255);
+    background-color:blueviolet;
+}
+
+button:hover{
+    background-color: rgb(110, 19, 195);
+    animation: headShake;
+    animation-duration: 1.2s;
+}
+  
+#sec1{
+    background-color: black;
+    color: white;
+}
+
+#sec2 {
+    margin-top: 50px;
+}
+
+#sec3{
+    background-color:rgb(2, 2, 2);
+    color:whitesmoke;
+    margin:50px;
+    padding:50px 50px;
+    border: 5px solid black;
+}
+
+#sec3 a{
+    color:black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 0%;
+}
+
