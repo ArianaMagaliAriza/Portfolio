@@ -4,7 +4,7 @@
 }
 
 body {
-    background: whitesmoke
+    background: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,7 +14,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
 }
 
 a {
