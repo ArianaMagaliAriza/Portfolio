@@ -12,7 +12,7 @@ header {
     background-color: black;
     color: rgb(240, 229, 245);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,7 +30,7 @@ nav {
     width: 960px;
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .menu {
