@@ -107,19 +107,12 @@ nav{
     background-image: url(https://flagsapi.com/GB/flat/32.png);
 }
 
-#me{
+img {
     border-radius: 50%;
     border: 5px solid black;
+    box-shadow: 4px 4px 10px black;
     width: 210px;
     height: auto;
-}
-
-img {
-    border-radius: 8px;
-    border: 5px solid black;
-    box-shadow: 4px 4px 10px black;
-    width: 126px;
-    height: 38px;
 }
 
 img:hover{
