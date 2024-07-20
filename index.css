@@ -96,7 +96,6 @@ nav{
     
 }
 
-
 .es:before {
     background-image: url(https://flagsapi.com/ES/flat/32.png);
 }
@@ -143,28 +142,20 @@ button:hover{
     animation: headShake;
     animation-duration: 1.2s;
 }
-  
-#sec1{
-    background-color: black;
-    color: white;
-}
 
-#sec2 {
+#photo {
     margin-top: 50px;
 }
 
-#sec3{
+#text{
     background-color:rgb(2, 2, 2);
     color:whitesmoke;
     margin:50px;
     padding:50px 50px;
-    border: 5px solid black;
+    border: 5px solid blueviolet;
     border-radius: 8px;
 }
 
-#sec3 a{
-    color:black;
-}
 
 footer{
     background-color: black;
