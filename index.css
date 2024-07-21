@@ -125,16 +125,14 @@ h1{font-size: 3em}
 section {
     flex-direction: column;
     display: flex;
-    margin: 30px auto;
+    margin: 40px auto;
     max-height: 10%;
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
 }
 
-#photo {
-    margin-top: 50px;
-}
+
 
 #text {
     background-color: rgb(2, 2, 2);
