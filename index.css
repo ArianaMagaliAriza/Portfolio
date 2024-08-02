@@ -85,8 +85,8 @@ nav{
 }
 
 .menu ul li a:hover {
-    background-color: rgb(14, 14, 14)
-
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
 }
 
 .menu ul li a:before {
@@ -111,7 +111,7 @@ img {
     border-radius: 50%;
     border: 5px solid black;
     box-shadow: 4px 4px 10px black;
-    width: 210px;
+    width: 220px;
     height: auto;
 }
 
@@ -159,7 +159,7 @@ button {
 button:hover {
     background-color: rgb(110, 19, 195);
     animation: headShake;
-    animation-duration: 1.2s;
+    animation-duration: 1s;
 }
 
 footer{
